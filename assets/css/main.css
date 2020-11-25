@@ -1,0 +1,208 @@
+.aborder:hover {
+  border: 1px solid white;
+  transform: scale(1.1);
+  overflow: hidden;
+}
+
+.jumbo1 {
+  height: 75vh;
+}
+
+.jumbo12 {
+  height: 75vh;
+}
+.jumbo2 {
+  height: 70vh;
+}
+
+.jumbo3 {
+  height: 20vh;
+}
+
+.bigpic:hover {
+  border: 1px solid white;
+  transform: scale(1.1);
+}
+
+.bg {
+  /* The image used */
+  background-image: url("/images/sand.jpg");
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.ch1 {
+  padding: 2px;
+  background-color: blue;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+}
+
+.indexpic {
+  height: "10%";
+}
+
+#consh {
+  display: none;
+}
+
+#devh {
+  display: none;
+}
+
+#analh {
+  display: none;
+}
+
+#consb {
+  display: none;
+}
+
+#devb {
+  display: none;
+}
+
+#analb {
+  display: none;
+}
+.hunpic {
+  position: relative;
+}
+
+.hunpic:hover {
+  content: url("/images/hunmix.jpg");
+  transform: scale(7);
+  z-index: 12;
+  position: absolute;
+  top: -2rem;
+}
+
+.animate__animated.animate__fadeInUp {
+  --animate-duration: 5s;
+  --animate-delay: 2s;
+}
+
+.sbody {
+  height: 40vh;
+  overflow: auto;
+}
+
+.snav {
+  height: 5vh;
+}
+
+.shead {
+  height: 20vh;
+  overflow-y: auto;
+}
+
+.infocard {
+  height: 85%;
+}
+
+.snookerpics:hover,
+.soccerpics:hover,
+.ppongpics:hover,
+.cruisepics:hover {
+  transform: scale(2);
+  z-index: 10;
+}
+
+.iconrow {
+  height: 10%;
+}
+
+.year {
+  padding: 2px;
+  border-radius: 50%;
+  background-color: dodgerblue;
+  color: white;
+  text-align: center;
+}
+
+.yearjq {
+  padding: 2px;
+  border-radius: 50%;
+  background-color: dodgerblue;
+  color: white;
+  text-align: center;
+  height: 60%;
+}
+
+hr.style1 {
+  border-top: 1px solid #8c8b8b;
+}
+
+.cshadow {
+  box-shadow: 5px 5px 1px grey;
+}
+
+.cshadow:hover {
+  transform: scale(1.05);
+  box-shadow: 10px 10px 3px grey;
+}
+
+.footer {
+  height: 5%;
+  width: 100%;
+
+  bottom: 0;
+  margin-bottom: 0;
+  padding-bottom: 0;
+  padding-top: 20px;
+}
+
+.navb {
+  height: 13vh;
+  width: 100%;
+}
+
+.navbar {
+  height: 12vh;
+  width: 100%;
+}
+
+.project {
+  min-height: 650px;
+  margin-bottom: 300px;
+  padding-bottom: 500px;
+}
+
+.navskill {
+  padding: 2px;
+  background-color: #8c8b8b;
+  color: white;
+}
+
+.navbpic {
+  height: 10%;
+  width: 12%;
+}
+
+/*
+::::::::::::::::::::::::::::::::::::::::::::::::::::
+Bootstrap 4 breakpoints
+Display 1 (6rem = 90px)
+Display 2 (5.5rem = 82.5px)
+Display 3 (4.5rem = 67.5px)
+Display 4 (3.5rem = 52.5px)
+h1 (2.5rem = 40px)
+h2 (2rem = 32px)
+h3 (1.75rem = 28px)
+h4 (1.5rem = 24px)
+h5 (1.25rem = 20px)
+h6 (1rem = 16px)
+p (1rem = 16px)
+*/
+/* Small devices (landscape phones, 544px and up) */
+
+.mec {
+  height: 60vh;
+}

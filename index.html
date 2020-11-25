@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en" class="mb-0 pt-0">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <link rel="stylesheet" href="assets/css/main.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"
+    />
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <title>Zoli</title>
+    <style>
+      @media screen and (min-width: 300px) {
+        .j12 {
+          height: 150vh;
+        }
+        .j13 {
+          height: 220vh;
+        }
+        .jhome {
+          height: 85vh;
+        }
+        .di2 {
+          font-size: 2.5rem;
+        }
+        .infocard {
+          min-width: 320px;
+          max-width: 100vw;
+        }
+        .shead {
+          min-width: 335px;
+        }
+        .sbody {
+          min-width: 335px;
+        }
+        .card2 {
+          max-width: 100vw;
+        }
+
+        .card {
+          min-width: 220px;
+        }
+        .edulist {
+          min-width: 100px;
+        }
+        .etext {
+          min-width: 125px;
+        }
+
+        .edu2 {
+          font-size: 8px;
+        }
+        .edu3 {
+          font-size: 13px;
+        }
+      }
+      @media screen and (min-width: 570px) {
+        .di2 {
+          font-size: 2.5rem;
+        }
+        .jhome {
+          height: 75vh;
+        }
+        .j12 {
+          height: 150vh;
+        }
+        .jwork {
+          height: 50vh;
+        }
+        .j13 {
+          height: 110vh;
+        }
+        .j14 {
+          height: 120vh;
+        }
+        .mec {
+          height: 170vh;
+        }
+
+        .card1 {
+          height: 60vh;
+          width: 66vw;
+        }
+
+        .infocard {
+          min-width: 200px;
+          max-width: 33vw;
+        }
+
+        .shead {
+          width: 96vw;
+        }
+
+        .im1 {
+          width: 15%;
+          height: 25%;
+        }
+
+        .card2 {
+        }
+        .nav2 {
+          z-index: 100;
+          width: 70vh;
+        }
+        .btnsk {
+          font-size: 12px;
+          height: 40px;
+        }
+        .edu1 {
+          font-size: 12px;
+        }
+        .edu2 {
+          font-size: 8px;
+        }
+        .edu3 {
+          font-size: 15px;
+        }
+        .edu4 {
+          font-size: 10px;
+        }
+        .edu5 {
+          font-size: 13px;
+        }
+        .langr {
+          width: 50px;
+          height: 50px;
+        }
+        .langp {
+          width: 1000%;
+          height: 200%;
+        }
+      }
+      @media screen and (min-width: 571px) {
+        .di2 {
+          font-size: 2.5rem;
+        }
+
+        .j12 {
+          height: 150vh;
+        }
+        .btnsk {
+          font-size: 12px;
+        }
+      }
+      /* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+      @media screen and (min-width: 768px) {
+        .di2 {
+          font-size: 4rem;
+        }
+        .j12 {
+          height: 80vh;
+        }
+        .jwork {
+          height: 55vh;
+        }
+        .j13 {
+          height: 60vh;
+        }
+        .project {
+          min-height: 80vh;
+        }
+        .j14 {
+          height: 50vh;
+        }
+        .btnsk {
+          font-size: 13px;
+        }
+      }
+
+      /* Large devices (desktops, 992px and up) */
+      @media (min-width: 992px) {
+        .di2 {
+          font-size: 4rem;
+        }
+        .j12 {
+          height: 80vh;
+        }
+        .jwork {
+          height: 40vh;
+        }
+        .j13 {
+          height: 65vh;
+        }
+        .project {
+          min-height: 60vh;
+        }
+        .j14 {
+          height: 40vh;
+        }
+        .btnsk {
+          font-size: 13px;
+        }
+      }
+
+      /* Extra large devices (large desktops, 1200px and up) */
+      @media (min-width: 1200px) {
+        .di2 {
+          font-size: 4rem;
+        }
+        .j12 {
+          height: 100vh;
+        }
+        .jwork {
+          height: 80vh;
+        }
+        .j13 {
+          height: 105vh;
+        }
+
+        .j14 {
+          height: 80vh;
+        }
+        .bigpic {
+          width: 250px;
+        }
+        .phone {
+          margin-top: 5px;
+        }
+        .ctitle {
+          visibility: hidden;
+        }
+
+        .btnsk {
+          font-size: 13px;
+        }
+      }
+    </style>
+  </head>
+  <body class="mb-0 pb-0 bg-info">
+    <div class="row w-100">
+      <div class="col col-sm text-right mb-2 pt-2 pr-4">
+        <svg
+          width="16"
+          height="16"
+          viewBox="0 0 24 24"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M22 12C22 10.6868 21.7413 9.38647 21.2388 8.1731C20.7362 6.95996 19.9997 5.85742 19.0711 4.92896C18.1425 4.00024 17.0401 3.26367 15.8268 2.76123C14.6136 2.25854 13.3132 2 12 2V4C13.0506 4 14.0909 4.20703 15.0615 4.60889C16.0321 5.01099 16.914 5.60034 17.6569 6.34326C18.3997 7.08594 18.989 7.96802 19.391 8.93848C19.7931 9.90918 20 10.9495 20 12H22Z"
+            fill="blue"
+          />
+          <path
+            d="M2 10V5C2 4.44775 2.44772 4 3 4H8C8.55228 4 9 4.44775 9 5V9C9 9.55225 8.55228 10 8 10H6C6 14.4182 9.58173 18 14 18V16C14 15.4478 14.4477 15 15 15H19C19.5523 15 20 15.4478 20 16V21C20 21.5522 19.5523 22 19 22H14C7.37259 22 2 16.6274 2 10Z"
+            fill="currentColor"
+          />
+          <path
+            d="M17.5433 9.70386C17.8448 10.4319 18 11.2122 18 12H16.2C16.2 11.4485 16.0914 10.9023 15.8803 10.3928C15.6692 9.88306 15.3599 9.42017 14.9698 9.03027C14.5798 8.64014 14.1169 8.33081 13.6073 8.11963C13.0977 7.90869 12.5515 7.80005 12 7.80005V6C12.7879 6 13.5681 6.15527 14.2961 6.45679C15.024 6.7583 15.6855 7.2002 16.2426 7.75732C16.7998 8.31445 17.2418 8.97583 17.5433 9.70386Z"
+            fill="currentColor"
+          />
+        </svg>
+        Call me
+      </div>
+      <div class="col col-sm text-left mb-2 pt-2 pl-4">
+        <svg
+          width="16"
+          height="16"
+          viewBox="0 0 24 24"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            fill-rule="evenodd"
+            clip-rule="evenodd"
+            d="M3.00977 5.83789C3.00977 5.28561 3.45748 4.83789 4.00977 4.83789H20C20.5523 4.83789 21 5.28561 21 5.83789V17.1621C21 18.2667 20.1046 19.1621 19 19.1621H5C3.89543 19.1621 3 18.2667 3 17.1621V6.16211C3 6.11449 3.00333 6.06765 3.00977 6.0218V5.83789ZM5 8.06165V17.1621H19V8.06199L14.1215 12.9405C12.9499 14.1121 11.0504 14.1121 9.87885 12.9405L5 8.06165ZM6.57232 6.80554H17.428L12.7073 11.5263C12.3168 11.9168 11.6836 11.9168 11.2931 11.5263L6.57232 6.80554Z"
+            fill="blue"
+          />
+        </svg>
+        Email Me
+      </div>
+    </div>
+
+    <div class="row w-100">
+      <div class="col col-sm mb-2 ml-5 text-center">
+        <h2 class="text-white text-center">Zoltan Sebestyen</h2>
+      </div>
+    </div>
+
+    <div class="row w-100 h-25 pr-2 pl-2 mr-4 ml-2">
+      <img
+        class="mx-auto img-fluid bigpic pr-3"
+        src="images/tg6ai.jpg"
+        alt="cvpics"
+      />
+    </div>
+
+    <div class="row w-100">
+      <div class="col col-sm text-right mb-2 pt-2 pr-4">
+        <svg
+          width="16"
+          height="16"
+          viewBox="0 0 24 24"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M22 12C22 10.6868 21.7413 9.38647 21.2388 8.1731C20.7362 6.95996 19.9997 5.85742 19.0711 4.92896C18.1425 4.00024 17.0401 3.26367 15.8268 2.76123C14.6136 2.25854 13.3132 2 12 2V4C13.0506 4 14.0909 4.20703 15.0615 4.60889C16.0321 5.01099 16.914 5.60034 17.6569 6.34326C18.3997 7.08594 18.989 7.96802 19.391 8.93848C19.7931 9.90918 20 10.9495 20 12H22Z"
+            fill="blue"
+          />
+          <path
+            d="M2 10V5C2 4.44775 2.44772 4 3 4H8C8.55228 4 9 4.44775 9 5V9C9 9.55225 8.55228 10 8 10H6C6 14.4182 9.58173 18 14 18V16C14 15.4478 14.4477 15 15 15H19C19.5523 15 20 15.4478 20 16V21C20 21.5522 19.5523 22 19 22H14C7.37259 22 2 16.6274 2 10Z"
+            fill="currentColor"
+          />
+          <path
+            d="M17.5433 9.70386C17.8448 10.4319 18 11.2122 18 12H16.2C16.2 11.4485 16.0914 10.9023 15.8803 10.3928C15.6692 9.88306 15.3599 9.42017 14.9698 9.03027C14.5798 8.64014 14.1169 8.33081 13.6073 8.11963C13.0977 7.90869 12.5515 7.80005 12 7.80005V6C12.7879 6 13.5681 6.15527 14.2961 6.45679C15.024 6.7583 15.6855 7.2002 16.2426 7.75732C16.7998 8.31445 17.2418 8.97583 17.5433 9.70386Z"
+            fill="currentColor"
+          />
+        </svg>
+        Share by text
+      </div>
+      <div class="col col-sm text-left mb-2 pt-2 pl-4">
+        <svg
+          width="16"
+          height="16"
+          viewBox="0 0 24 24"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            fill-rule="evenodd"
+            clip-rule="evenodd"
+            d="M3.00977 5.83789C3.00977 5.28561 3.45748 4.83789 4.00977 4.83789H20C20.5523 4.83789 21 5.28561 21 5.83789V17.1621C21 18.2667 20.1046 19.1621 19 19.1621H5C3.89543 19.1621 3 18.2667 3 17.1621V6.16211C3 6.11449 3.00333 6.06765 3.00977 6.0218V5.83789ZM5 8.06165V17.1621H19V8.06199L14.1215 12.9405C12.9499 14.1121 11.0504 14.1121 9.87885 12.9405L5 8.06165ZM6.57232 6.80554H17.428L12.7073 11.5263C12.3168 11.9168 11.6836 11.9168 11.2931 11.5263L6.57232 6.80554Z"
+            fill="blue"
+          />
+        </svg>
+        Share by Email
+      </div>
+    </div>
+
+    <div class="row w-100">
+      <div class="col col-sm mb-2 ml-5 text-center">
+        <h2 class="text-white text-center">Download Contact</h2>
+      </div>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="assets/js/main.js"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+      crossorigin="anonymous"
+    ></script>
+    <!--Start of Tawk.to Script-->
+    <script type="text/javascript">
+      var Tawk_API = Tawk_API || {},
+        Tawk_LoadStart = new Date();
+      (function () {
+        var s1 = document.createElement("script"),
+          s0 = document.getElementsByTagName("script")[0];
+        s1.async = true;
+        s1.src = "https://embed.tawk.to/5f70c311f0e7167d00142f1d/default";
+        s1.charset = "UTF-8";
+        s1.setAttribute("crossorigin", "*");
+        s0.parentNode.insertBefore(s1, s0);
+      })();
+    </script>
+    <!--End of Tawk.to Script-->
+  </body>
+</html>
